@@ -1,9 +1,6 @@
 import Image from "next/image"
-
-import { ArrowUpRight } from "lucide-react"
 import Link from "next/link"
-
-import { Wand2 } from "lucide-react"
+import { ArrowUpRight, Wand2 } from "lucide-react"
 import image from "public/cyborgduck.png"
 
 export default function IndexPage() {
@@ -24,7 +21,7 @@ export default function IndexPage() {
               </div>
             </div>
           </div>
-          <div className="-z-10 flex h-[350px] w-full items-center justify-center rounded-xl bg-gradient-to-r from-cyan-400 via-cyan-200 to-cyan-400 ring-2 ring-cyan-500 sm:-my-2 lg:-my-3">
+          <div className="-z-10 -my-2.5 flex h-[350px] w-full items-center justify-center rounded-xl bg-gradient-to-r from-cyan-400 via-cyan-200 to-cyan-400 ring-2 ring-cyan-500">
             <Image
               src={image}
               alt="Cyborg Duck"
@@ -37,36 +34,60 @@ export default function IndexPage() {
             </div>
           </div>
           <div className="grad-back absolute -z-20 my-10 flex h-[500px] w-full flex-1 bg-cyan-200"></div>
-          <div className="mt-10 grid h-[200px] w-full grid-cols-2 gap-3 md:grid-cols-4">
-            <Link href="" className="w-full relative group p-2 pt-6 flex rounded-xl bg-cyan-300 bg-opacity-80 border-cyan-500 border-2">
-              <div className="!space-y-5">
-                Welcome to the official website for TAMS Web Dev!
+          <div className="mt-10 grid h-[100px] w-full grid-cols-2 gap-3 md:grid-cols-4">
+            <Link
+              href=""
+              className="group relative flex w-full rounded-xl border-2 border-cyan-500 bg-cyan-300 bg-opacity-80 p-2 pt-6"
+            >
+              <div className="flex flex-col gap-2">
+                <div className="text-xl font-bold tracking-tight underline">
+                  About Us
+                </div>
+                <div>Learn more about us!</div>
               </div>
-              <div className="absolute text-cyan-100 top-0 right-0 translate-x-2 -translate-y-2 bg-cyan-600 rounded-xl">
+              <div className="absolute right-0 top-0 -translate-y-2 translate-x-2 rounded-xl bg-cyan-600 text-cyan-100 transition ease-in-out group-hover:scale-125">
                 <ArrowUpRight />
               </div>
             </Link>
-            <Link href="" className="w-full relative group p-2 pt-6 flex rounded-xl bg-cyan-300 bg-opacity-80 border-cyan-500 border-2">
-              <div className="!space-y-5">
-                Welcome to the official website for TAMS Web Dev!
+            <Link
+              href=""
+              className="group relative flex w-full rounded-xl border-2 border-cyan-500 bg-cyan-300 bg-opacity-80 p-2 pt-6"
+            >
+              <div className="flex flex-col gap-2">
+                <div className="text-xl font-bold tracking-tight underline">
+                  Videos
+                </div>
+                <div>Watch Our Tutorial Videos!</div>
               </div>
-              <div className="absolute text-cyan-100 top-0 right-0 translate-x-2 -translate-y-2 bg-cyan-600 rounded-xl">
+              <div className="absolute right-0 top-0 -translate-y-2 translate-x-2 rounded-xl bg-cyan-600 text-cyan-100 transition ease-in-out group-hover:scale-125">
                 <ArrowUpRight />
               </div>
             </Link>
-            <Link href="" className="w-full relative group p-2 pt-6 flex rounded-xl bg-cyan-300 bg-opacity-80 border-cyan-500 border-2">
-              <div className="!space-y-5">
-                Welcome to the official website for TAMS Web Dev!
+            <Link
+              href=""
+              className="group relative flex w-full rounded-xl border-2 border-cyan-500 bg-cyan-300 bg-opacity-80 p-2 pt-6"
+            >
+              <div className="flex flex-col gap-2">
+                <div className="text-xl font-bold tracking-tight underline">
+                  Resources
+                </div>
+                <div>Watch Our Tutorial Videos!</div>
               </div>
-              <div className="absolute text-cyan-100 top-0 right-0 translate-x-2 -translate-y-2 bg-cyan-600 rounded-xl">
+              <div className="absolute right-0 top-0 -translate-y-2 translate-x-2 rounded-xl bg-cyan-600 text-cyan-100 transition ease-in-out group-hover:scale-125">
                 <ArrowUpRight />
               </div>
             </Link>
-            <Link href="" className="w-full relative group p-2 pt-6 flex rounded-xl bg-cyan-300 bg-opacity-80 border-cyan-500 border-2">
-              <div className="!space-y-5">
-                Welcome to the official website for TAMS Web Dev!
+            <Link
+              href=""
+              className="group relative flex w-full rounded-xl border-2 border-cyan-500 bg-cyan-300 bg-opacity-80 p-2 pt-6"
+            >
+              <div className="flex flex-col gap-2">
+                <div className="text-xl font-bold tracking-tight underline">
+                  Upcoming Events
+                </div>
+                <div>Look at our events!</div>
               </div>
-              <div className="absolute text-cyan-100 top-0 right-0 translate-x-2 -translate-y-2 bg-cyan-600 rounded-xl">
+              <div className="absolute right-0 top-0 -translate-y-2 translate-x-2 rounded-xl bg-cyan-600 text-cyan-100 transition ease-in-out group-hover:scale-125">
                 <ArrowUpRight />
               </div>
             </Link>
