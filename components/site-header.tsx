@@ -35,7 +35,7 @@ export function SiteHeader() {
                     variant: "link",
                   })}
                 >
-                  Contact
+                  Videos
                   <span className="sr-only">Contact</span>
                 </div>
               </Link>
@@ -45,8 +45,18 @@ export function SiteHeader() {
                     variant: "link",
                   })}
                 >
-                  Contact
-                  <span className="sr-only">Contact</span>
+                  Resources
+                  <span className="sr-only">Resources</span>
+                </div>
+              </Link>
+              <Link href="/contact" rel="noreferrer">
+                <div
+                  className={buttonVariants({
+                    variant: "link",
+                  })}
+                >
+                  Events
+                  <span className="sr-only">Videos</span>
                 </div>
               </Link>
             </div>
