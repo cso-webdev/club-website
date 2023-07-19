@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowUpRight, Wand2 } from "lucide-react"
 import image from "public/cyborgduck.png"
+import Title from "./title"
 
 export default function IndexPage() {
   return (
@@ -13,7 +14,7 @@ export default function IndexPage() {
               Welcome to
             </div>
             <div className="text-4xl font-extrabold tracking-tighter drop-shadow-xl backdrop-blur-sm sm:text-7xl lg:text-8xl">
-              TAMS WEB DEV
+              <Title/>
             </div>
             <div className="flex w-full justify-center">
               <div className="mt-2 w-fit rounded-xl bg-black px-2.5 py-1 text-xs font-semibold text-white">
