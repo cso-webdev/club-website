@@ -81,11 +81,13 @@
   }
   .grad-back {
     opacity: 0.3;
-    background: conic-gradient(from 90deg at 50% 50%, #A7D8FF 10%, #01eaff 80%, #2edbf990);
+    background: conic-gradient(
+      from 90deg at 50% 50%,
+      #a7d8ff 10%,
+      #01eaff 80%,
+      #2edbf990
+    );
     filter: blur(160px);
     transform: translateY(160px);
   }
-  
-  
-  
 }
