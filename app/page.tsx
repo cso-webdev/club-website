@@ -1,7 +1,10 @@
 import Image from "next/image"
+
 import { ArrowUpRight } from "lucide-react"
-import image from "public/cyborgduck.png"
 import Link from "next/link"
+
+import { Wand2 } from "lucide-react"
+import image from "public/cyborgduck.png"
 
 export default function IndexPage() {
   return (
@@ -34,16 +37,6 @@ export default function IndexPage() {
             </div>
           </div>
           <div className="grad-back absolute -z-20 my-10 flex h-[500px] w-full flex-1 bg-cyan-200"></div>
-          {/* <div className="mt-10 h-[200px] w-full gap-1 rounded-xl border-2 border-cyan-500 px-4 py-4 text-xl">
-            Welcome to the official website for TAMS Web Dev! <br />
-            <br />
-            Here you can access written and video resources to take you from 0
-            coding experience to web wizard
-            <span className="inline-block align-middle mr-1">
-              <Wand2 />
-            </span>
-            created by your committee heads!
-          </div> */}
           <div className="mt-10 grid h-[200px] w-full grid-cols-2 gap-3 md:grid-cols-4">
             <Link href="" className="w-full relative group p-2 pt-6 flex rounded-xl bg-cyan-300 bg-opacity-80 border-cyan-500 border-2">
               <div className="!space-y-5">
