@@ -1,4 +1,5 @@
 "use client"
+
 import React from "react"
 import { Menu } from "lucide-react"
 
@@ -19,18 +20,13 @@ export default function SmallMenu({}: Props) {
     <Menubar>
       <MenubarMenu>
         <MenubarTrigger>
-          {" "}
           <Menu />
         </MenubarTrigger>
         <MenubarContent>
-          <MenubarItem>
-            New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-          </MenubarItem>
-          <MenubarItem>New Window</MenubarItem>
-          <MenubarSeparator />
-          <MenubarItem>Share</MenubarItem>
-          <MenubarSeparator />
-          <MenubarItem>Print</MenubarItem>
+          <MenubarItem>About Us</MenubarItem>
+          <MenubarItem> Videos</MenubarItem>
+          <MenubarItem> Resources</MenubarItem>
+          <MenubarItem> Upcoming Events</MenubarItem>
         </MenubarContent>
       </MenubarMenu>
     </Menubar>
